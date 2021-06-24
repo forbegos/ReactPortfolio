@@ -23,7 +23,7 @@ export default function About() {
         <h1>About</h1>
         <div>
           <img
-            src="../FdO_Pic.png"
+            src="./FdO_Pic.png"
             width="200"
             height="200"
             style={imgStyle}

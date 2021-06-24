@@ -22,7 +22,7 @@ export default function Footer() {
           className="anchor"
         >
           <img
-            src="../public/Linkedin.png"
+            src="./Linkedin.png"
             width="32px"
             height="32px"
             alt="Linkedin profile"
@@ -34,7 +34,7 @@ export default function Footer() {
           href="https://www.github.com/forbegos"
           className="anchor"
         >
-          <img src="../GitHub-Mark-32px.png" alt="Github profile"></img>
+          <img src="./GitHub-Mark-32px.png" alt="Github profile"></img>
         </a>
 
         <a
@@ -43,7 +43,7 @@ export default function Footer() {
           className="anchor"
         >
           <img
-            src="../stackoverflow.png"
+            src="./stackoverflow.png"
             width="32px"
             height="32px"
             alt="Github profile"

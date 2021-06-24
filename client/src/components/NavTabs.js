@@ -28,7 +28,7 @@ function NavTabs({ currentPage, handlePageChange }) {
     <nav className="navbar navbar-light bg-light">
       <div style={logoStyle}>
         <img
-          src="../logo512.png"
+          src="./logo512.png"
           alt=""
           width="100"
           height="100"

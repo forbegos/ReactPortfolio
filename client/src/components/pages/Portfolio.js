@@ -37,7 +37,7 @@ export default function Portfolio() {
           </p>
           <div>
             <img
-              src="../WDS-shot2.png"
+              src="./WDS-shot2.png"
               width="200"
               height="200"
               alt=""
@@ -49,7 +49,7 @@ export default function Portfolio() {
                 className="anchor"
                 style={buttonStyle}
               >
-                <img src="../GitHub-Mark-32px.png" alt=""></img>
+                <img src="./GitHub-Mark-32px.png" alt=""></img>
               </a>
               <a
                 href="https://forbegos.github.io/Word-Day-Scheduler/"
@@ -70,7 +70,7 @@ export default function Portfolio() {
           </p>
           <div>
             <img
-              src="../WDASH-shot1.png"
+              src="./WDASH-shot1.png"
               width="200"
               height="200"
               style={buttonStyle}
@@ -82,7 +82,7 @@ export default function Portfolio() {
                 className="anchor"
                 style={buttonStyle}
               >
-                <img src="../GitHub-Mark-32px.png" alt=""></img>
+                <img src="./GitHub-Mark-32px.png" alt=""></img>
               </a>
               <a
                 href="https://forbegos.github.io/Weather-Dashboard/"
@@ -102,13 +102,13 @@ export default function Portfolio() {
             calculate prorated rental amounts in any given day of the month.
           </p>
           <div>
-            <img src="../Prorater.PNG" width="200" height="200" alt=""></img>
+            <img src="./Prorater.PNG" width="200" height="200" alt=""></img>
             <div>
               <a
                 href="https://apps.apple.com/us/app/prorater/id1526359025"
                 className="anchor"
               >
-                <img src="../appStore.jpeg" width="32" height="32" alt=""></img>
+                <img src="./appStore.jpeg" width="32" height="32" alt=""></img>
               </a>
             </div>
           </div>
@@ -122,7 +122,7 @@ export default function Portfolio() {
           </p>
           <div>
             <img
-              src="../foodTruckLocator.png"
+              src="./foodTruckLocator.png"
               width="200"
               height="200"
               alt=""
@@ -134,7 +134,7 @@ export default function Portfolio() {
                 style={buttonStyle}
               >
                 <img
-                  src="../GitHub-Mark-32px.png"
+                  src="./GitHub-Mark-32px.png"
                   style={buttonStyle}
                   alt=""
                 ></img>
