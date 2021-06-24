@@ -15,6 +15,10 @@ const headingStyle = {
   textAlign: "center",
 };
 
+const buttonStyle = {
+  padding: "10px",
+};
+
 export default function Portfolio() {
   return (
     <div>
@@ -30,13 +34,27 @@ export default function Portfolio() {
           can utilize to create a daily task list.
         </p>
         <div>
-          <img src="../WDS-shot2.png" width="200" height="200" alt=""></img>
+          <img
+            src="../WDS-shot2.png"
+            width="200"
+            height="200"
+            alt=""
+            style={buttonStyle}
+          ></img>
           <div>
             <a
               href="https://github.com/forbegos/Word-Day-Scheduler"
               className="anchor"
+              style={buttonStyle}
             >
               <img src="../GitHub-Mark-32px.png" alt=""></img>
+            </a>
+            <a
+              href="https://forbegos.github.io/Word-Day-Scheduler/"
+              className="anchor"
+              style={buttonStyle}
+            >
+              Try it!
             </a>
           </div>
         </div>
@@ -49,13 +67,27 @@ export default function Portfolio() {
           forecast.
         </p>
         <div>
-          <img src="../WDASH-shot1.png" width="200" height="200" alt=""></img>
+          <img
+            src="../WDASH-shot1.png"
+            width="200"
+            height="200"
+            style={buttonStyle}
+            alt=""
+          ></img>
           <div>
             <a
               href="https://github.com/forbegos/Weather-Dashboard"
               className="anchor"
+              style={buttonStyle}
             >
               <img src="../GitHub-Mark-32px.png" alt=""></img>
+            </a>
+            <a
+              href="https://forbegos.github.io/Weather-Dashboard/"
+              className="anchor"
+              style={buttonStyle}
+            >
+              Try it!
             </a>
           </div>
         </div>
@@ -97,13 +129,20 @@ export default function Portfolio() {
             <a
               href="https://github.com/forbegos/FoodTruckLocator"
               className="anchor"
+              style={buttonStyle}
             >
               <img
                 src="../GitHub-Mark-32px.png"
-                width="32"
-                height="32"
+                style={buttonStyle}
                 alt=""
               ></img>
+            </a>
+            <a
+              href="https://rgeisreiter.github.io/FoodTruckLocator/"
+              className="anchor"
+              style={buttonStyle}
+            >
+              Try it!
             </a>
           </div>
         </div>
