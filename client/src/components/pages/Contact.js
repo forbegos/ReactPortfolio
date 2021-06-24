@@ -1,5 +1,6 @@
 import React from "react";
 import Form from "../contactForm";
+import Footer from "../footer";
 
 const contactStyle = {
   border: "2px black solid",
@@ -14,7 +15,7 @@ const contactStyle = {
 
 export default function Contact() {
   return (
-    <>
+    <div>
       <div style={contactStyle}>
         <h1>Let’s Chat</h1>
         <p>
@@ -25,6 +26,9 @@ export default function Contact() {
         </p>
         <p>+1 (720) 614-6108</p>
       </div>
-    </>
+      <div>
+        <Footer />
+      </div>
+    </div>
   );
 }

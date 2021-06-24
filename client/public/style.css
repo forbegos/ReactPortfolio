@@ -10,19 +10,3 @@
   background-attachment: fixed;
   background-size: cover;
 }
-
-footer {
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-}
-
-a {
-  text-decoration: none !important;
-  border: 0px !important;
-  outline: none;
-  border-width: 0px;
-  outline-width: 0px;
-  border-bottom: none;
-  padding: 10px;
-}
