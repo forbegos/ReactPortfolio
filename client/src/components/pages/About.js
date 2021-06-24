@@ -11,12 +11,21 @@ const aboutStyle = {
   boxShadow: "10px 10px 10px black",
 };
 
+const imgStyle = {
+  marginBottom: "10px",
+};
+
 export default function About() {
   return (
     <div style={aboutStyle}>
       <h1>About</h1>
       <div>
-        <img src="../FdO_Pic.png" width="200" height="200"></img>
+        <img
+          src="../FdO_Pic.png"
+          width="200"
+          height="200"
+          style={imgStyle}
+        ></img>
       </div>
       <p>
         My name is Fernando de Orbegoso and my dream has always been to create.

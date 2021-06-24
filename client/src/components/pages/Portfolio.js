@@ -19,7 +19,7 @@ export default function Portfolio() {
   return (
     <div>
       <div>
-        <h1 style={headingStyle}>My Portfolio</h1>
+        <h1 style={headingStyle}>Portfolio</h1>
       </div>
       <div style={portfolioStyle}>
         <p>project 1</p>

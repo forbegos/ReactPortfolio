@@ -1,7 +1,8 @@
 import React from "react";
 
 const imgStyle = {
-  margin: "20px",
+  margin: "0 auto",
+  marginBottom: "10px",
 };
 
 const navStyle = {
@@ -9,18 +10,33 @@ const navStyle = {
   width: "200px",
 };
 
+const headingStyle = {
+  fontWeight: "bold",
+  fontSize: "3em",
+};
+
+const logoStyle = {
+  margin: "0 auto",
+  display: "flex",
+  paddingLeft: "200px",
+  flexDirection: "column",
+  // border: "2px solid black",
+};
+
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <nav className="navbar navbar-light bg-light">
-      <img
-        src="../logo512.png"
-        alt=""
-        width="80"
-        height="80"
-        class="d-inline-block align-text-top"
-        style={imgStyle}
-      />
-      <h1>GatoSoftware</h1>
+      <div style={logoStyle}>
+        <img
+          src="../logo512.png"
+          alt=""
+          width="100"
+          height="100"
+          class="d-inline-block align-text-top"
+          style={imgStyle}
+        />
+        <h1 style={headingStyle}>GatoSoftware</h1>
+      </div>
       <ul className="navbar-nav" style={navStyle}>
         <li className="nav-item">
           <a
