@@ -1,4 +1,5 @@
 import React from "react";
+import Form from "../contactForm";
 
 const contactStyle = {
   border: "2px black solid",
@@ -13,12 +14,17 @@ const contactStyle = {
 
 export default function Contact() {
   return (
-    <div style={contactStyle}>
-      <h1>Let’s Chat</h1>
-      <p>
-        <a href="mailto:forbegos@me.com">forbegos@me.com </a>
-      </p>
-      <p>+1 (720) 614-6108</p>
-    </div>
+    <>
+      <div style={contactStyle}>
+        <h1>Let’s Chat</h1>
+        <p>
+          <div>
+            <Form />
+          </div>
+          <a href="mailto:forbegos@me.com">forbegos@me.com </a>
+        </p>
+        <p>+1 (720) 614-6108</p>
+      </div>
+    </>
   );
 }
