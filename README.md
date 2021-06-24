@@ -2,6 +2,8 @@
 
 # MyPortfolio
 
+Live Site: https://forbegos.github.io/ReactPortfolio
+
 ## Welcome to my Portfolio page project. In this project I will go through multiple iterations applying what I am learning at the DU Coding Bootcamp to arrive at a final version of my website.
 
 This version is using React to build my portfolio website.
