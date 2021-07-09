@@ -52,7 +52,7 @@ export default function Portfolio() {
           name={project.name}
           description={project.description}
           projectImg={project.projectImg}
-          appLink={project}
+          appLink={project.appLink}
         />
       ))}
       <div>
