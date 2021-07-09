@@ -52,6 +52,7 @@ export default function Portfolio() {
           name={project.name}
           description={project.description}
           projectImg={project.projectImg}
+          repo={project.repo}
           appLink={project.appLink}
         />
       ))}
