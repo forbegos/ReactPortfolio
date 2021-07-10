@@ -36,8 +36,8 @@ const projects = [
     description:
       " A Javascript application that uses a server side API that allows for the search and mapping of food truck locations in a city",
     projectImg: "./foodTruckLocator.png",
-    repo: "https://github.com/forbegos/FoodTruckLocator",
-    appLink: "https://rgeisreiter.github.io/FoodTruckLocator",
+    repo: "https://github.com/forbegos/Food_Truck_App",
+    appLink: "https://forbegos.github.io/Food_Truck_App/",
   },
 ];
 
