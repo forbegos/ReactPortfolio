@@ -19,9 +19,9 @@ export default function Contact() {
       <div style={contactStyle}>
         <h1>Let’s Chat</h1>
         <p>
-          <div>
+          {/* <div>
             <Form />
-          </div>
+          </div> */}
           <a href="mailto:forbegos@me.com">forbegos@me.com </a>
         </p>
         <p>+1 (720) 614-6108</p>
