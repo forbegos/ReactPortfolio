@@ -10,7 +10,7 @@ This version is using React to build my portfolio website.
 
 ## Below is a screenshot of my page at this stage:
 
-![](client/public/ScreenShot.png)
+![](public/ScreenShot.png)
 
 ## Developer
 
