@@ -1,5 +1,4 @@
 import React from "react";
-import Form from "../contactForm";
 import Footer from "../footer";
 
 const contactStyle = {
@@ -19,9 +18,6 @@ export default function Contact() {
       <div style={contactStyle}>
         <h1>Let’s Chat</h1>
         <p>
-          {/* <div>
-            <Form />
-          </div> */}
           <a href="mailto:forbegos@me.com">forbegos@me.com </a>
         </p>
         <p>+1 (720) 614-6108</p>
