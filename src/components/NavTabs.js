@@ -25,19 +25,19 @@ const logoStyle = {
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar navbar-light bg-light">
+    <nav className="navbar navbar-light">
       <div style={logoStyle}>
-        <img
+        {/* <img
           src="./logo512.png"
           alt=""
           width="100"
           height="100"
           style={imgStyle}
-        />
-        <h1 style={headingStyle}>GatoSoftware</h1>
+        /> */}
+        <h1 style={headingStyle}>Fernando de Orbegoso</h1>
       </div>
       <ul className="navbar-nav" style={navStyle}>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <a
             href="#home"
             onClick={() => handlePageChange("Home")}
@@ -45,7 +45,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           >
             Home
           </a>
-        </li>
+        </li> */}
         <li className="nav-item">
           <a
             href="#about"
